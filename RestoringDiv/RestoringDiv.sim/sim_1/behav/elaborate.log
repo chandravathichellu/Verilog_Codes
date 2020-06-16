@@ -1,0 +1,22 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 4cb9a268a68548f09652deb285c688a8 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RATB_behav xil_defaultlib.RATB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port in0 [E:/Sem-2/HW-SW/SOC-lab-vivado/RestoringDiv/RestoringDiv.srcs/sources_1/new/RADP.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.shreg
+Compiling module xil_defaultlib.shregn
+Compiling module xil_defaultlib.piporeg
+Compiling module xil_defaultlib.sub
+Compiling module xil_defaultlib.mux1
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.count
+Compiling module xil_defaultlib.RADP
+Compiling module xil_defaultlib.RACPN
+Compiling module xil_defaultlib.RATB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RATB_behav

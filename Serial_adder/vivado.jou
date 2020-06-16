@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed May 20 22:04:51 2020
+# Process ID: 6228
+# Current directory: E:/Sem-2/HW-SW/SOC-lab-vivado/Serial_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5812 E:\Sem-2\HW-SW\SOC-lab-vivado\Serial_adder\Serial_adder.xpr
+# Log file: E:/Sem-2/HW-SW/SOC-lab-vivado/Serial_adder/vivado.log
+# Journal file: E:/Sem-2/HW-SW/SOC-lab-vivado/Serial_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Sem-2/HW-SW/SOC-lab-vivado/Serial_adder/Serial_adder.xpr
+update_compile_order -fileset sources_1

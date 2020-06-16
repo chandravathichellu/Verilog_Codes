@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/usreg.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/piporeg2.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/piporeg1.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/counter.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/comp2.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/comp1.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/adder.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/lsreg.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/SAAMDP.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sources_1/new/SAAMCPN.v"
+verilog xil_defaultlib  "../../../shiftandaddmultiplier.srcs/sim_1/new/SAAMTB.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

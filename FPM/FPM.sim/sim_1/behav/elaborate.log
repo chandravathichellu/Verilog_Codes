@@ -1,0 +1,28 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto b092fabfc24d4a47aef56dc998570a9c --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FPMTBN_behav xil_defaultlib.FPMTBN xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-597] element index 48 into carry is out of bounds [E:/Sem-2/HW-SW/SOC-lab-vivado/FPM/FPM.srcs/sources_1/new/csa.v:27]
+WARNING: [VRFC 10-597] element index 48 into c is out of bounds [E:/Sem-2/HW-SW/SOC-lab-vivado/FPM/FPM.srcs/sources_1/new/rca.v:28]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipo1
+Compiling module xil_defaultlib.pipo2
+Compiling module xil_defaultlib.pipo3
+Compiling module xil_defaultlib.pipo4
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.adder_default
+Compiling module xil_defaultlib.csa_default
+Compiling module xil_defaultlib.rca_default
+Compiling module xil_defaultlib.wallacetree
+Compiling module xil_defaultlib.mantf
+Compiling module xil_defaultlib.pipo5
+Compiling module xil_defaultlib.FPMDPN
+Compiling module xil_defaultlib.FPMCP
+Compiling module xil_defaultlib.FPMTBN
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FPMTBN_behav

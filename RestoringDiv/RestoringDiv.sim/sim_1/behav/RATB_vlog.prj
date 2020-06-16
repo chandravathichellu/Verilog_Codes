@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/piporeg.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/shreg.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/mux2.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/mux1.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/sub.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/shregn.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/count.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/RACPN.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sources_1/new/RADP.v"
+verilog xil_defaultlib  "../../../RestoringDiv.srcs/sim_1/new/RATB.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

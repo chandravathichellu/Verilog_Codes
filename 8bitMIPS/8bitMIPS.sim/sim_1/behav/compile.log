@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Sem-2/HW-SW/8-bit_Multicycle_Processor_MIPS-master/8-bit_Multicycle_Processor_MIPS-master/SimpleRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimpleRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Sem-2/HW-SW/8-bit_Multicycle_Processor_MIPS-master/8-bit_Multicycle_Processor_MIPS-master/SimpleRegister_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimpleRegister_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Sem-2/HW-SW/SOC-lab-vivado/8bitMIPS/8bitMIPS.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
