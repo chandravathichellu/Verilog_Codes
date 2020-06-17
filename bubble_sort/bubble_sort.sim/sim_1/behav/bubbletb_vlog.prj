@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/shreg.v"
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/mux.v"
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/counter.v"
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/comparator.v"
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/bubbledp.v"
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/bubblecp.v"
+verilog xil_defaultlib  "../../../bubble_sort.srcs/sources_1/new/bubbletb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

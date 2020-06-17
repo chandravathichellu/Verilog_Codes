@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Jun 17 20:34:18 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="5ea1d2bd79ee4646b32a1e82544c1a97" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="7" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="5" type="JavaHandler"/>
+<property name="ui.views.b.h.f" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="8" type="GuiResourceData"/>
+<property name="NEXT, Next " value="14" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, bubblecp" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, bubbledp" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, bubbletb" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, comparator" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, counter" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, mux" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, shreg" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, bubbledp (bubbledp.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Non-module Files], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 12" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, bubblecp (bubblecp.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, bubbledp (bubbledp.v" value="9" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, bubbletb (bubbletb.v" value="10" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, comparator (comparator.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, bubble_sort" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="7" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="14" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_BLANK_OPERATIONS, Blank Operations" value="3" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_COMMANDS_TO_FOLD_TEXT, Folding" value="4" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_DIFF_WITH, Diff with" value="3" type="GuiResourceData"/>
+<property name="RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, outputs" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 100, 489" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 103, 481, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 105, 379" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 105, 405" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 106, 416, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 108, 412" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 110, 365" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 110, 378" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 111, 359" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 111, 416" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 111, 43" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 114, 323" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 117, 397" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 118, 475" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 123, 380" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 127, 364" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 130, 400" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 134, 384" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 134, 390" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 134, 490" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 137, 56" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 140, 433" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 144, 383" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 144, 400" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 152, 406" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 155, 416" value="2" type="GuiResourceData"/>
+<property name="bubblecp.v, 158, 387" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 163, 363" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 164, 416" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 165, 405" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 165, 431" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 167, 405" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 169, 385" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 169, 413" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 169, 417" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 172, 487" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 174, 438" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 176, 404" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 186, 419" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 189, 384" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 196, 381" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 198, 364" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 199, 192" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 200, 396" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 201, 415" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 205, 431" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 207, 385" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 207, 437" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 209, 210" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 209, 483" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 210, 385" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 212, 396" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 216, 389, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 219, 430, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 227, 503" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 229, 442" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 229, 481" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 23, 468" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 232, 482" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 235, 431" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 238, 347" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 240, 298" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 241, 433, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 242, 386, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 242, 397" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 243, 484" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 245, 449" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 246, 448" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 247, 450" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 248, 482" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 249, 244" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 249, 432" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 250, 223" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 250, 75" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 252, 192" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 253, 248" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 254, 211" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 254, 498" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 254, 498, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 255, 192" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 26, 415" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 26, 480" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 262, 488" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 266, 397" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 267, 481" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 27, 417" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 28, 468" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 283, 436" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 284, 438" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 284, 463" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 288, 432" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 29, 417" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 295, 378" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 298, 157" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 298, 442" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 299, 405" value="2" type="GuiResourceData"/>
+<property name="bubblecp.v, 30, 396" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 302, 431" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 303, 488" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 306, 14" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 307, 243" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 309, 487" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 311, 484" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 313, 372" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 315, 232" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 316, 504" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 317, 225" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 317, 280" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 317, 380" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 320, 330" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 327, 61" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 328, 481" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 333, 119" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 334, 400" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 342, 483" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 343, 399" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 343, 417" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 346, 401" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 361, 330" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 363, 403" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 368, 435" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 369, 437" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 372, 456" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 373, 417" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 377, 378" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 38, 382" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 380, 193" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 381, 396" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 384, 393" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 397, 445" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 410, 398" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 411, 421" value="2" type="GuiResourceData"/>
+<property name="bubblecp.v, 42, 487" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 421, 329" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 421, 428" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 425, 416" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 43, 429" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 442, 433" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 460, 447" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 462, 436" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 463, 333" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 465, 387" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 477, 423" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 478, 439" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 490, 464" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 494, 484" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 496, 447" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 496, 470" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 503, 244" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 511, 407" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 513, 492" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 522, 458" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 522, 470" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 528, 455" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 529, 484" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 532, 244" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 541, 378" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 542, 246" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 552, 412" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 554, 458" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 554, 488" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 559, 401" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 57, 368" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 575, 395" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 576, 426" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 577, 498" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 601, 436" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 606, 478" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 61, 395" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 62, 383" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 62, 398" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 62, 449" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 626, 356" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 626, 478" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 63, 402" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 631, 364" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 636, 361" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 64, 347" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 643, 78" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 65, 369" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 653, 444" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 66, 223" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 66, 429" value="2" type="GuiResourceData"/>
+<property name="bubblecp.v, 660, 406" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 665, 441" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 67, 428" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 68, 312" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 685, 384" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 69, 465" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 708, 150" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 72, 336" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 720, 402" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 725, 362" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 731, 452" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 741, 363" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 744, 386" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 75, 414" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 759, 467, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 76, 423, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 775, 364" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 78, 477" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 780, 420" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 787, 466" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 788, 405" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 79, 419" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 798, 463" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 81, 382" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 810, 418" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 812, 417" value="2" type="GuiResourceData"/>
+<property name="bubblecp.v, 824, 397" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 826, 399" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 826, 447" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 827, 414" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 828, 400" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 828, 402" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 832, 397" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 857, 419" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 891, 467" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 91, 424, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 95, 480" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 96, 399" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 96, 472" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 97, 434" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 98, 486" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 99, 375" value="1" type="GuiResourceData"/>
+<property name="bubblecp.v, 99, 486" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 0, 242" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 0, 311" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 1, 230" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 10, 343" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 102, 395, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 103, 295" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 103, 352" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 104, 397" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 105, 346" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 106, 225" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 107, 390" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 110, 453" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 112, 362" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 113, 366" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 113, 370" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 114, 159" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 115, 368" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 116, 363" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 118, 159" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 118, 448" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 121, 141" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 121, 334" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 123, 211" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 124, 216" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 124, 416" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 124, 459" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 126, 312" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 126, 404" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 126, 464" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 127, 229" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 127, 278" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 127, 311" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 127, 419" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 128, 371" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 128, 437" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 132, 298" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 132, 365" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 133, 163" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 134, 276" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 134, 394" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 135, 349" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 135, 408" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 137, 319" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 140, 452" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 142, 383" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 146, 325" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 148, 121" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 148, 385" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 15, 341" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 155, 367" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 159, 316" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 162, 451" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 163, 196" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 167, 196, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 167, 308" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 168, 317" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 169, 193, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 169, 326" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 176, 413" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 178, 247" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 18, 453" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 183, 415" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 183, 416" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 185, 245" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 186, 336" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 188, 346" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 189, 465" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 190, 258" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 192, 393" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 204, 239" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 204, 421" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 208, 353" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 208, 453" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 209, 229" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 209, 316" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 209, 420" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 209, 441" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 210, 361" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 214, 327" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 214, 368" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 216, 420" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 217, 449" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 218, 421" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 219, 373" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 222, 415" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 227, 208" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 230, 333" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 231, 281" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 233, 374" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 238, 382" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 244, 402" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 245, 281" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 245, 412" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 246, 327" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 246, 414" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 248, 146" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 249, 437" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 25, 422" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 251, 368" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 253, 247" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 254, 131" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 254, 224" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 256, 329" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 257, 270" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 257, 459" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 258, 282" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 259, 434" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 260, 230" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 262, 453" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 264, 371" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 265, 417" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 270, 379" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 270, 440" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 272, 367" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 273, 316" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 274, 421" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 275, 317" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 275, 335" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 276, 453" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 277, 353" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 277, 416" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 278, 295" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 278, 362" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 284, 292" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 284, 301" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 285, 354" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 285, 476" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 288, 309" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 290, 340" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 293, 283" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 295, 433" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 3, 435" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 301, 335" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 302, 325" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 303, 280" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 304, 259" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 305, 319" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 305, 444" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 306, 278" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 307, 96" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 308, 89" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 309, 445" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 310, 261" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 310, 441" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 312, 394" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 313, 410" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 314, 438" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 316, 94" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 317, 370" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 319, 200" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 320, 447" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 320, 464" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 322, 425" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 329, 428" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 331, 329" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 331, 457" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 333, 277" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 334, 311" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 334, 318" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 335, 311" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 335, 317" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 336, 418" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 337, 326" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 337, 445" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 341, 201" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 342, 353" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 343, 454" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 344, 316" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 344, 349" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 345, 476" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 347, 294" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 349, 351" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 353, 426" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 354, 345" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 361, 429" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 365, 418" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 368, 94" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 37, 302" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 373, 398" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 374, 423" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 376, 352" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 379, 395" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 381, 266" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 385, 312" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 385, 397" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 39, 332" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 390, 412" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 390, 461" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 4, 327" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 40, 421" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 40, 435" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 400, 453" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 402, 377" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 406, 468" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 407, 269" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 407, 380" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 409, 409" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 409, 412" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 41, 265" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 41, 382" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 411, 430" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 414, 327" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 42, 335" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 42, 417" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 423, 385" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 425, 193" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 425, 415" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 427, 178" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 429, 367" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 43, 264" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 43, 333" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 43, 420" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 435, 362" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 436, 405" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 45, 365" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 455, 181" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 456, 456" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 459, 451" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 469, 92" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 47, 327" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 475, 363" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 477, 369" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 478, 333" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 48, 332" value="3" type="GuiResourceData"/>
+<property name="bubbledp.v, 484, 195" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 484, 359" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 485, 361" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 491, 164" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 492, 157" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 492, 185" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 492, 91" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 5, 318" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 500, 442" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 504, 272" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 510, 165" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 515, 244" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 515, 372" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 517, 383" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 520, 320" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 522, 473" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 525, 370" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 526, 172" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 528, 148" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 530, 473" value="2" type="GuiResourceData"/>
+<property name="bubbledp.v, 54, 178" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 54, 330" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 54, 333" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 54, 352" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 552, 96" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 553, 92" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 558, 220" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 565, 347" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 565, 431" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 57, 381" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 571, 363" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 573, 166" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 574, 91" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 574, 92, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 575, 286" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 579, 412" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 586, 159" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 588, 164" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 594, 94" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 618, 197" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 648, 226" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 665, 157" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 67, 334" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 677, 277" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 68, 212" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 682, 131" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 691, 327" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 7, 332" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 714, 442" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 717, 230" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 721, 351" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 758, 305" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 758, 320" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 764, 195, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 767, 200" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 81, 418" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 81, 456" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 816, 196" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 830, 430" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 831, 434" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 88, 363" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 89, 436" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 9, 341" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 92, 196" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 92, 321" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 92, 397" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 93, 386" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 934, 375" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 97, 365" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 99, 336" value="1" type="GuiResourceData"/>
+<property name="bubbledp.v, 99, 366" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 101, 246" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 106, 448" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 107, 416" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 109, 429" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 112, 435, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 124, 422, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 13, 398" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 130, 449" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 131, 485" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 133, 437" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 135, 481" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 138, 485" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 139, 436" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 14, 365" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 140, 485" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 142, 432, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 143, 483" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 164, 487" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 175, 384" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 177, 386" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 178, 469" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 179, 251" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 181, 258" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 185, 247" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 188, 450" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 196, 447" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 201, 384" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 204, 448" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 207, 400" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 230, 388" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 250, 421" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 251, 443" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 256, 448" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 257, 449" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 26, 416" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 262, 440" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 267, 452" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 274, 338" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 277, 350" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 302, 392" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 312, 211" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 340, 392" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 364, 431" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 391, 425" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 402, 437" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 415, 335" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 42, 471" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 434, 382" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 44, 350" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 445, 453" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 446, 460" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 46, 451" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 463, 454" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 466, 393" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 49, 446" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 50, 446" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 52, 457" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 55, 266" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 57, 278" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 60, 414" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 62, 432" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 696, 263" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 731, 348" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 75, 418" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 89, 486" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 93, 451" value="1" type="GuiResourceData"/>
+<property name="bubbletb.v, 95, 443" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 10, 457" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 113, 435" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 126, 378" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 126, 381" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 171, 506" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 175, 482" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 179, 416" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 194, 404" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 20, 405" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 24, 415" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 262, 400" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 363, 398" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 390, 394" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 391, 403" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 397, 389" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 397, 398" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 525, 399" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 54, 433" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 6, 475" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 61, 401" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 67, 396" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 691, 400" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 692, 401" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 718, 396" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 721, 401" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 734, 399" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 758, 400" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 771, 397" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 771, 399" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 774, 438" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 790, 454" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 824, 400" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 860, 402" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 884, 397" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 886, 398" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 888, 402" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 892, 399" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 895, 403" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 898, 399" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 899, 393" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 904, 398" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 916, 401" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 920, 409" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 934, 401" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 97, 388" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 97, 454" value="1" type="GuiResourceData"/>
+<property name="comparator.v, 997, 398" value="1" type="GuiResourceData"/>
+<property name="counter.v, 154, 376" value="1" type="GuiResourceData"/>
+<property name="counter.v, 160, 378" value="1" type="GuiResourceData"/>
+<property name="counter.v, 28, 415" value="1" type="GuiResourceData"/>
+<property name="counter.v, 284, 444" value="1" type="GuiResourceData"/>
+<property name="counter.v, 316, 462" value="1" type="GuiResourceData"/>
+<property name="counter.v, 322, 441" value="1" type="GuiResourceData"/>
+<property name="counter.v, 358, 465" value="1" type="GuiResourceData"/>
+<property name="counter.v, 65, 410" value="1" type="GuiResourceData"/>
+<property name="mux.v, 108, 437" value="1" type="GuiResourceData"/>
+<property name="mux.v, 127, 241" value="1" type="GuiResourceData"/>
+<property name="mux.v, 16, 490" value="1" type="GuiResourceData"/>
+<property name="mux.v, 160, 326" value="1" type="GuiResourceData"/>
+<property name="mux.v, 164, 409" value="1" type="GuiResourceData"/>
+<property name="mux.v, 194, 400" value="1" type="GuiResourceData"/>
+<property name="mux.v, 194, 410" value="1" type="GuiResourceData"/>
+<property name="mux.v, 215, 411" value="1" type="GuiResourceData"/>
+<property name="mux.v, 243, 248" value="1" type="GuiResourceData"/>
+<property name="mux.v, 259, 347" value="1" type="GuiResourceData"/>
+<property name="mux.v, 285, 469" value="1" type="GuiResourceData"/>
+<property name="mux.v, 287, 432" value="1" type="GuiResourceData"/>
+<property name="mux.v, 29, 419" value="1" type="GuiResourceData"/>
+<property name="mux.v, 29, 450" value="1" type="GuiResourceData"/>
+<property name="mux.v, 35, 282" value="1" type="GuiResourceData"/>
+<property name="mux.v, 369, 382" value="1" type="GuiResourceData"/>
+<property name="mux.v, 39, 461" value="1" type="GuiResourceData"/>
+<property name="mux.v, 393, 421" value="1" type="GuiResourceData"/>
+<property name="mux.v, 394, 469" value="1" type="GuiResourceData"/>
+<property name="mux.v, 396, 435" value="2" type="GuiResourceData"/>
+<property name="mux.v, 405, 406" value="1" type="GuiResourceData"/>
+<property name="mux.v, 405, 410" value="1" type="GuiResourceData"/>
+<property name="mux.v, 582, 405" value="1" type="GuiResourceData"/>
+<property name="mux.v, 594, 381" value="1" type="GuiResourceData"/>
+<property name="mux.v, 602, 387" value="1" type="GuiResourceData"/>
+<property name="mux.v, 66, 279" value="1" type="GuiResourceData"/>
+<property name="mux.v, 66, 288" value="1" type="GuiResourceData"/>
+<property name="mux.v, 66, 289" value="1" type="GuiResourceData"/>
+<property name="mux.v, 68, 332" value="1" type="GuiResourceData"/>
+<property name="mux.v, 72, 384" value="1" type="GuiResourceData"/>
+<property name="mux.v, 76, 379" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 138, 384" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 153, 418" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 188, 288" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 233, 476" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 26, 420" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 267, 390" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 272, 401" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 283, 487" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 363, 380" value="2" type="GuiResourceData"/>
+<property name="shreg.v, 379, 403" value="1" type="GuiResourceData"/>
+<property name="shreg.v, 523, 386" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="113" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="99" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

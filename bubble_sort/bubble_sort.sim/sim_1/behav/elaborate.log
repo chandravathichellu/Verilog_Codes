@@ -1,0 +1,24 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 96ea0950b74249b6aa23f223334073f4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bubbletb_behav xil_defaultlib.bubbletb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port in6 [E:/Sem-2/HW-SW/SOC_lab_vivado/bubble_sort/bubble_sort.srcs/sources_1/new/bubbledp.v:37]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port in6 [E:/Sem-2/HW-SW/SOC_lab_vivado/bubble_sort/bubble_sort.srcs/sources_1/new/bubbledp.v:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port in6 [E:/Sem-2/HW-SW/SOC_lab_vivado/bubble_sort/bubble_sort.srcs/sources_1/new/bubbledp.v:39]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port in6 [E:/Sem-2/HW-SW/SOC_lab_vivado/bubble_sort/bubble_sort.srcs/sources_1/new/bubbledp.v:40]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port in6 [E:/Sem-2/HW-SW/SOC_lab_vivado/bubble_sort/bubble_sort.srcs/sources_1/new/bubbledp.v:36]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port ld [E:/Sem-2/HW-SW/SOC_lab_vivado/bubble_sort/bubble_sort.srcs/sources_1/new/bubbledp.v:45]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.shreg
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.bubbledp
+Compiling module xil_defaultlib.bubblecp
+Compiling module xil_defaultlib.bubbletb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bubbletb_behav

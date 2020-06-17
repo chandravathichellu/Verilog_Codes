@@ -1,0 +1,4 @@
+Running: xsim.dir/bubbletb_behav/xsimk.exe -simmode gui -wdb bubbletb_behav.wdb -simrunnum 0 -socket 52230
+Design successfully loaded
+Design Loading Memory Usage: 6164 KB (Peak: 6164 KB)
+Design Loading CPU Usage: 15 ms
